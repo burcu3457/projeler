@@ -1,0 +1,16 @@
+.banner {
+  background-image: url("../img/ağaçrsm.jpg");
+  height: 50vh;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner h1,
+.banner p {
+  margin: 5px;
+  padding: 2rem;
+}
+h1 {
+  text-align: center;
+}

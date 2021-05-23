@@ -1,0 +1,28 @@
+.anasayfa {
+  height: 100%;
+  margin: 0 5rem 0 5rem;
+}
+.baslik {
+  font-family: Roboto;
+  font-size: 3rem;
+}
+
+table td input {
+  width: 29.4rem;
+  border: 0.1rem solid rgb(206, 201, 201);
+}
+table {
+  margin-left: 3.5rem;
+  width: 36rem;
+  text-align: end;
+}
+
+.kaydet {
+  width: 5rem;
+}
+.kyt {
+  text-align: end;
+}
+textarea {
+  border: 0.1rem solid rgb(206, 201, 201);
+}

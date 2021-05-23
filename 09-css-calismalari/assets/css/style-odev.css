@@ -1,0 +1,35 @@
+* {
+  font-family: roboto;
+}
+
+a {
+  text-decoration: none;
+}
+.solmenu {
+  list-style-type: "✔️";
+}
+
+.solmenu {
+  background-color: gray;
+  text-align: left;
+  width: 10rem;
+}
+
+a:link {
+  color: rgb(139, 0, 12);
+}
+
+a:visited {
+  color: rgba(128, 17, 85, 0.952);
+}
+
+a:hover {
+  color: blueviolet;
+}
+a:active {
+  color: crimson;
+}
+
+ul {
+  padding: ;
+}

@@ -1,0 +1,14 @@
+button {
+  background-color: rgb(48, 150, 7);
+}
+
+button {
+  display: none;
+}
+
+button:checked + div {
+  background-color: royalblue;
+}
+button i {
+  position: fixed;
+}

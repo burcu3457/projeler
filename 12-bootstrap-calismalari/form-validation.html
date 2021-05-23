@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+
+    <title>Formlar</title>
+  </head>
+  <body>
+    <form action="giris.php" class="needs-validation" novalidate>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <label for="isim" class="form-label">Adınız</label>
+          <input id="isim" type="text" class="form-control" required maxlength="10" minlength="2">
+          <div class="invalid-feedback">Geçerli bir isim giriniz</div>
+        </div>
+        <div class="col-4">
+          <label for="yas" class="form-label">Yaşınız</label>
+
+          <input id="yas" type="number" class="form-control" required min="12" max="120">
+          <div class="invalid-feedback">En az 12 yaş olmalıdır</div>
+        </div>
+        <div class="col-4">
+          <label for="eposta" class="form-label">Eposta</label>
+
+          <input id="eposta" type="email" class="form-control" required>
+          <div class="invalid-feedback">Geçerli bir eposta giriniz</div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Gönder</button>
+          <button class="btn btn-warning" type="reset">Temizle</button>
+
+        </div>
+      </div>
+
+    </div>
+    
+     
+    </form>
+  
+    
+
+
+
+    <script src="assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <script>
+      (function () {
+    'use strict'
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+        }, false)
+        })
+})()
+      </script>
+   
+</html>

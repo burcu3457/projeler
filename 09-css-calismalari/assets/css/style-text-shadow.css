@@ -1,0 +1,53 @@
+h1 {
+  padding: 5rem;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  width: 35vw;
+}
+
+h1.baslik1 {
+  background-color: #6cfafc;
+  color: white;
+  text-shadow: 2px 3px 2px rgba(94, 10, 10, 0.3);
+
+}
+
+h1.baslik2 {
+  background-color: blueviolet;
+  color: aqua;
+  text-shadow: 3px 4px 3px; darkcyan;
+
+height: 100px;
+
+ 
+  
+}
+
+h1.baslik3 {
+  background-color: #50a150;
+  color: rgb(36, 35, 33);
+  text-shadow: rgba(0, 0, 0, 0.15);
+ 
+
+}
+
+ h1.baslik4 {
+  background-color: #fff3cd;
+  color: #ffffff;
+  text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3),
+  0px 14px 10px rgba(0, 0, 0, 0.15),
+  0px 15px 2px rgba(0, 0, 0, 0.1);
+}
+h1.baslik5 {
+  background-color: #639653;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
+}
+
+h1.baslik6 {
+  background-color: #6cfafc;
+  color: #ffffff;
+  text-shadow: 5px 5px 0px rgb(95, 226, 228), 10px 10px 0px rgb(86, 200, 201),
+    20px 20px 0px rgb(86, 200, 201);
+}

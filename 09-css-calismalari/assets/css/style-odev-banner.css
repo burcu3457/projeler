@@ -1,0 +1,44 @@
+body {
+  margin: 5rem;
+  font-family: Roboto;
+}
+
+section.banner .bg {
+  background-image: url("../img/images.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 50vh;
+  text-align: center;
+  padding: 5rem;
+  box-sizing: border-box;
+}
+
+section p,
+section h1 {
+  margin: 5px;
+  padding: 0;
+}
+
+section h1 {
+  font-size: 2rem;
+}
+
+section p {
+  font-size: 1.4rem;
+}
+
+section.banner .buttons {
+  text-align: center;
+}
+section.banner .buttons span {
+  width: 5vw;
+  height: 2vh;
+  background-color: black;
+  display: inline-block;
+  margin: 1rem;
+}
+
+section.banner .buttons span.aktif {
+  background-color: violet;
+}

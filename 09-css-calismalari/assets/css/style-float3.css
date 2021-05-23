@@ -1,0 +1,22 @@
+body {
+  background-color: dimgray;
+}
+
+.kutu {
+  width: 100px;
+  height: 100px;
+  background-color: chocolate;
+  margin: 1rem;
+}
+
+.kutu-sol {
+  float: left;
+}
+
+.kutu-sag {
+  float: right;
+}
+
+.temizle {
+  clear: both;
+}

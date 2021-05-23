@@ -1,0 +1,6 @@
+body {
+  height: 100vh;
+  background-image: url("../img/new.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}

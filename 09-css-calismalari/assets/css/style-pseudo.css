@@ -1,0 +1,27 @@
+ul.liste li {
+  color: darkred;
+}
+
+ul.liste li:first-child {
+  font-weight: bold;
+}
+ul.liste li:last-child {
+  font-weight: initial;
+}
+ul.liste li:nth-child(3) {
+  color: darkturquoise;
+}
+ul.liste li:nth-child(odd) {
+  background-color: gray;
+}
+ul.liste li:nth-child(even) {
+  background-color: hotpink;
+}
+ul.liste li::after {
+  content: "✔️";
+}
+ul.liste li::before {
+  font-family: "Font Awesome 5 ree";
+  font-weight: 900;
+  content: "\f054";
+}

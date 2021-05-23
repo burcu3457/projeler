@@ -1,0 +1,30 @@
+body {
+  font-family: "Roboto";
+}
+div {
+  margin: 1.5rem;
+  padding: 1rem;
+}
+a {
+  text-decoration: none;
+}
+
+div.kutu {
+  text-decoration: none;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(19, 143, 91);
+  color: black;
+  float: left;
+  margin-right: 1rem;
+}
+
+.kutu1 {
+  text-decoration: none;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(8, 8, 8);
+  color: black;
+  float: left;
+  margin-right: 1rem;
+}

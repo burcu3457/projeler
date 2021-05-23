@@ -1,0 +1,13 @@
+.banner {
+  height: 50vh;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner1 {
+  background-image: url("../img/tur1.jpeg");
+}
+.banner2 {
+  background-image: url("../img/tur1.jpeg");
+}
